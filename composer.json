@@ -1,0 +1,16 @@
+{
+  "name": "hoyoll/chunking-orbit",
+  "description": "some stupid ffi stuff",
+  "autoload": {
+    "psr-4": {
+      "Hoyoll\\ChunkingOrbit\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Effendi",
+      "email": "effendi.saputra01@gmail.com"
+    }
+  ],
+  "require": {}
+}
