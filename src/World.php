@@ -25,7 +25,7 @@ class World {
     public function __construct()
     {
         $this->entities = [];
-        $this->rl = FFI::cdef(file_get_contents(__DIR__."/../clib/raylib.h"), "raylib.dll");
+        $this->rl = FFI::cdef(file_get_contents(__DIR__."/../clib/raylib.h"), __DIR__."/../clib/raylib.dll");
     }
 
 }

@@ -4,7 +4,7 @@ require __DIR__.'/../vendor/autoload.php';
 use Hoyoll\ChunkingOrbit\World;
 
 $c = new World();
-$rl = FFI::cdef(file_get_contents(__DIR__."/../clib/raylib.h"), "raylib.dll");
+$rl = FFI::cdef(file_get_contents(__DIR__."/../clib/raylib.h"), __DIR__."/../clib/raylib.dll");
 
 $rl->InitWindow(800, 600, "Hello Raylib!");
 $rl->SetTargetFPS(60);
